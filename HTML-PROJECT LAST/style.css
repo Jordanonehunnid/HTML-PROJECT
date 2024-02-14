@@ -40,17 +40,17 @@ a:hover{
     color: skyblue;
     padding: 70px;
 }
+
+/* This is my image styling */
 .myimg{
+
     float: right;
     width: 30%;
 }
 
-/* .div{
-   /* position: relative; */
-   /* 
-    
-} */
+
 .div2{
+
     width: 1200px;
     height: auto;
     margin: auto;
@@ -106,7 +106,18 @@ a:hover{
     font-size: 60px;
 }
 
+.form{
 
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    color: white;
+    margin: 5% 15%;
+    grid-column-gap: 10px;
+}
+
+.form h2{
+    color:#ff7200
+}
 
 footer{
     background-color: black;

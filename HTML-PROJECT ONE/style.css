@@ -130,3 +130,28 @@ input {
     color: black;
 }
 
+/* My footer */
+footer{
+    background-color: #111;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    bottom: 0;
+    height: 0px;
+}
+
+.footerBottom{
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 10;
+    margin: 0px 5px;
+}

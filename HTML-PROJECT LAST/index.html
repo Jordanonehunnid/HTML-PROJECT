@@ -6,71 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/006a4066f7.js" crossorigin="anonymous"></script>
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
 </head>
 
 
 <body>
-    <header>
-        <!-- This is my gomycode header  -->
+ 
+ <!-- Header Part  Start   -->
+    <div id="header">
+        <div class="container">
+         <!-- Navigation bar start-->
+            <nav>
+                <img src="img/logo.png" class="logo">
+                <ul>
+                   <li><a href="index.html">Home</a></li> 
+                   <li><a href="about.html">About</a></li> 
+                   <li><a href="">Work</a></li> 
+                   <li><a href="">Resume</a></li> 
+                </ul>
+            </nav> 
 
-        <h1>GOMYCODE</h1>
-    </header>
+            <!-- Header Text    -->
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello! <br>I'm<span> Jordan</span> <br>A Fullstack student<br><span></span></h1>
+                <!-- button -->
+                <a href="about.html"><button class="button">My Portfolio</button></a>
+                <!-- icon -->
+                <a href="https://www.youtube.com/embed/QHoFPBGEmXI?si=2u3mjpn3OpOfwHPA"><i class="fa-brands fa-youtube fa-2xl" style="color: #fa3200;"></i></a>
 
-    <nav>
-        <!-- This is my nav bar -->
-
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="">Resume</a>
-        <a href="">Work</a>
-        <a href="">Contact</a>
-
-        <!-- End of my nav bar -->
-
-    </nav>
-
-    <!-- This is my img div -->
-    <div class="div">
-
-        <img class="myimg" src="me.jpg" alt="myimg">
-    
+            </div> 
+        </div>
     </div>
-    
+    <!-- Header Part End   -->
 
-    <!-- This is my about div -->
-    <div class="div2">
-        <div class="welcom">
-            <h1>Hello! <br><span>I'm Jordan</span> <br>A Fullstack student<br><span>
-                
-            <button class="btn"><a href="about.html">My Portfolio</a> 
-                </span>
-            </button></h1>
-
-            <a href="https://www.youtube.com/embed/QHoFPBGEmXI?si=2u3mjpn3OpOfwHPA"><i class="fa-brands fa-youtube fa-2xl" style="color: #fa3200;"></i></a>
+        <!-- About Section -->
+        <div id="about">
+           <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/Aboutbg.png" alt="">
+                </div>
+                <div class="about-col-2"> 
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ex minima, quas corrupti accusamus facere id, quibusdam quaerat assumenda, odio dolores soluta! Non aut veniam minus quia quibusdam, quaerat tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempore alias aut, voluptate, ducimus ipsum quo nesciunt, beatae nam provident atque reiciendis eos incidunt quibusdam dolorem doloribus facere id tenetur?</p>
+                </div>
+            </div>
+           </div>
         </div>
 
-            <!-- <p class="par">i'm super stocked about  getting started in web development . <br>There's so much to learn, and i'm ready to dive in and explore <br> the world of coding and creating awesome websites. <br>"It all starts with learning!"</p>   -->
-            
-            <!-- This is my form div -->
-            <div class="form">
-                <h2>Contact Me</h2>
-                <input type="email" name="email" placeholder="E-mail">
-                <input type="text" name="message" placeholder="Enter Message Here">
-                <button class="btnn"><a href="#">Contact Me</a></button>
-            </div>
-
-       
-    </div>    
-    
-        
-    
-   
-    <footer>
-        <!-- This is my footer -->
-        <p>Contact Me</p>
-        +2349876543210
-        <p>GOMYCODE</p>
-    </footer>
-</body>
 </html>
